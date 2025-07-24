@@ -1,22 +1,11 @@
 from pymongo import MongoClient
-from dotenv import load_dotenv
-import os
+from pymongo.server_api import ServerApi
 
-load_dotenv()
+uri = "mongodb+srv://shorryah:mongo123@cluster0.9cfchjz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+client = MongoClient(uri, server_api=ServerApi('1'))
 
-client = MongoClient(os.getenv("MONGODB_URI"))
 db = client["myclnq_chatbot_db"]
+users_collection = db["user_data"]
 
-class UserDB:
-    collection = db["users"]
-    
-    @classmethod
-    def get_user_by_mail(cls, email:str):
-        print(f"Searching for user with email: {email}")
-        print(f"Collection: {cls.collection.name}")
-        print(cls.collection.find_one({"email": email}))
-        return cls.collection.find_one({"email": email})
-    
-    @classmethod
-    def create_user(cls, user_data:dict):
-        cls.collection.insert_one(user_data)
+
+

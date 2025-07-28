@@ -3,14 +3,21 @@ from passlib.context import CryptContext
 from pymongo.errors import DuplicateKeyError
 from app.schemas.schemas import UserSignUp, UserLogin
 from app.db.mongodb import users_collection 
+from app.schemas.validation import validate_user_data 
 import traceback
 
 router = APIRouter(prefix="/auth", tags=["auth"])
-
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 @router.post("/register")
 def register(user: UserSignUp):
+    validation_errors = validate_user_data(user)
+    if validation_errors:
+        raise HTTPException(
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            detail=validation_errors
+        )
+    
     if user.password != user.confirm_password:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Passwords do not match")
     
@@ -46,6 +53,7 @@ def register(user: UserSignUp):
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to create user due to server error.")
 
     return {"message": "User registered successfully", "user_id": str(result.inserted_id)}
+
 
 
 @router.post("/login")

@@ -5,7 +5,7 @@ import os
 load_dotenv()
 
 uri = os.getenv("MONGODB_URL")
-print(uri)
+# print(uri)
 client = MongoClient(uri, server_api=ServerApi('1'))
 
 db = client["myclnq_chatbot_db"]

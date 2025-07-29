@@ -30,9 +30,9 @@ def passwords_match(password: str, confirm_password: str) -> bool:
 def is_valid_gender(gender: str) -> bool:
     return gender.lower() in ['male', 'female', 'prefer not to say']
 
-def is_valid_id_type(id_type: str) -> bool:
-    allowed = ["NRIC", "PASSPORT", "DRIVING LICENSE", "AADHAAR", "KTP", "EMIRATES", "CPR"]
-    return id_type.upper() in allowed
+# def is_valid_id_type(id_type: str) -> bool:
+#     allowed = ["NRIC", "PASSPORT", "DRIVING LICENSE", "AADHAAR", "KTP", "EMIRATES", "CPR"]
+#     return id_type.upper() in allowed
 
 def is_valid_dob(dob: date) -> bool:
     today = date.today()
@@ -57,8 +57,8 @@ def validate_user_data(user_data):
         errors.append("Invalid date of birth.")
     if not is_valid_gender(user_data.gender):
         errors.append("Invalid gender choice. Please type either 'male', 'female' or 'prefer not to say'.")
-    if not is_valid_id_type(user_data.id_type):
-        errors.append("Invalid user identification type. Please type either NRIC, PASSPORT, DRIVING LICENSE, AADHAAR, KTP, EMIRATES or CPR.")
+    # if not is_valid_id_type(user_data.id_type):
+    #     errors.append("Invalid user identification type. Please type either NRIC, PASSPORT, DRIVING LICENSE, AADHAAR, KTP, EMIRATES or CPR.")
     if not is_valid_password(user_data.password):
         errors.append("Password must have 9+ characters, with uppercase, number, and special character.")
     if not passwords_match(user_data.password, user_data.confirm_password):

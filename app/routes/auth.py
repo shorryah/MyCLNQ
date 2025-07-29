@@ -1,3 +1,4 @@
+from bson import ObjectId
 from fastapi import APIRouter, HTTPException, status
 from passlib.context import CryptContext
 from pymongo.errors import DuplicateKeyError
@@ -5,7 +6,7 @@ from app.schemas.schemas import UserSignUp, UserLogin
 from app.db.mongodb import users_collection 
 import traceback
 
-router = APIRouter(prefix="/auth", tags=["auth"])
+router = APIRouter()
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
@@ -17,31 +18,28 @@ def register(user: UserSignUp):
     existing_user = users_collection.find_one({"email": user.email.lower()})
     if existing_user:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email already registered")
-    
     hashed_password = pwd_context.hash(user.password)
 
     user_dict = {
         "firstName": user.firstName,
         "lastName": user.lastName,
-        "country": user.country,
-        "phone": user.phone,
+        # "country": user.country,
+        "mobileNumber": user.mobileNumber,
         "email": user.email.lower(),
-        "dob": str(user.dob), 
+        "dateOfBirth": str(user.dateOfBirth), 
         "gender": user.gender,
-        "id_type": user.id_type,
-        "id_number": user.id_number,
+        "height": user.height,
+        "weight": user.weight,
+        # "id_type": user.id_type,
+        # "id_number": user.id_number,
         "hashed_password": hashed_password,
     }
 
-    print(f"User data to insert: {user_dict}") 
-
     try:
         result = users_collection.insert_one(user_dict)
-        print(f"Inserted user with ID: {result.inserted_id}")
     except DuplicateKeyError:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email already registered")
     except Exception as e:
-        print(f"[MongoDB insertion error]: {e}")
         traceback.print_exc()  
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to create user due to server error.")
 
@@ -58,3 +56,13 @@ def login(user: UserLogin):
         raise HTTPException(status_code=400, detail="Invalid email or password")
 
     return {"message": "Login successful"}
+
+
+@router.get("/all")
+def get_all_users():
+    users = list(users_collection.find())
+    # Convert ObjectId to string for each document
+    for user in users:
+        user["_id"] = str(user["_id"])
+    
+    return {"users": users}

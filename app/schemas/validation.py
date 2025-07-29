@@ -21,7 +21,7 @@ def is_valid_phone(phone: str, country: str) -> bool:
         return False
 
 def is_valid_password(pw: str) -> bool:
-    regex = r"^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{9,}$"
+    regex = r"^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{6,}$"
     return re.match(regex, pw) is not None
 
 def passwords_match(password: str, confirm_password: str) -> bool:
@@ -34,9 +34,9 @@ def is_valid_gender(gender: str) -> bool:
 #     allowed = ["NRIC", "PASSPORT", "DRIVING LICENSE", "AADHAAR", "KTP", "EMIRATES", "CPR"]
 #     return id_type.upper() in allowed
 
-def is_valid_dob(dob: date) -> bool:
+def is_valid_dob(dateOfBirth: date) -> bool:
     today = date.today()
-    return dob <= today
+    return dateOfBirth <= today
 
 def is_valid_country(country: str) -> bool:
     return any(country.lower() == c.name.lower() for c in pycountry.countries)
@@ -49,11 +49,11 @@ def validate_user_data(user_data):
         errors.append("Last name must be 3-70 characters.")
     if not is_valid_country(user_data.country):
         errors.append("Invalid country name.")
-    if not is_valid_phone(user_data.phone, user_data.country):
+    if not is_valid_phone(user_data.mobileNumber, user_data.country):
         errors.append("Invalid phone number for specified country.")
     if not is_valid_email_format(user_data.email):
         errors.append("Invalid email format.")
-    if not is_valid_dob(user_data.dob):
+    if not is_valid_dob(user_data.dateOfBirth):
         errors.append("Invalid date of birth.")
     if not is_valid_gender(user_data.gender):
         errors.append("Invalid gender choice. Please type either 'male', 'female' or 'prefer not to say'.")

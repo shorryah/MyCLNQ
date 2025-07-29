@@ -4,7 +4,7 @@ from datetime import date
 class UserSignUp(BaseModel):
     firstName: str = Field(..., description="Your first name (3-70 characters)")
     lastName: str = Field(..., description="Your last name (3-70 characters)")
-    # country: str = Field(..., description="Your country name (e.g. Singapore)")
+    country: str = Field(..., description="Your country name (e.g. Singapore)")
     mobileNumber: str = Field(..., description="Your phone number, valid for the specified country")
     email: EmailStr = Field(..., description="Valid email address")
     dateOfBirth: date = Field(..., description="Date of birth (YYYY-MM-DD)")

@@ -31,7 +31,7 @@ def register(user: UserSignUp):
     user_dict = {
         "firstName": user.firstName,
         "lastName": user.lastName,
-        # "country": user.country,
+        "country": user.country,
         "mobileNumber": user.mobileNumber,
         "email": user.email.lower(),
         "dateOfBirth": str(user.dateOfBirth), 

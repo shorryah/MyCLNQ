@@ -2,20 +2,19 @@ from pydantic import BaseModel, EmailStr, Field
 from datetime import date
 
 class UserSignUp(BaseModel):
-    firstName: str = Field(..., description="Your first name (3-70 characters)")
-    lastName: str = Field(..., description="Your last name (3-70 characters)")
-    country: str = Field(..., description="Your country name (e.g. Singapore)")
-    mobileNumber: str = Field(..., description="Your phone number, valid for the specified country")
-    email: EmailStr = Field(..., description="Valid email address")
-    dateOfBirth: date = Field(..., description="Date of birth (YYYY-MM-DD)")
-    gender: str = Field(..., description="Gender (please type 'male', 'female' or 'prefer not to say')")
-    # id_type: str = Field(..., description="Identification type (please type NRIC, PASSPORT, DRIVING LICENSE, AADHAAR, KTP, EMIRATES or CPR)")
-    # id_number: str = Field(..., description="Identification number corresponding to the id_type")
-    height: int = Field(..., description="Height in cm")
-    weight: int = Field(..., description="Weight in kg")
-    password: str = Field(..., description="Password with at least 9 chars, uppercase, number, special char")
-    confirm_password: str = Field(..., description="Confirm password (must match password)")
-
+    countryCode: str = Field(..., description = "Country calling code (e.g. +65)")
+    phoneNumber: str = Field(..., description = "Phone number, valid for the specified country code")
+    firstName: str = Field(..., min_length=3, max_length=70, description = "Your first name (3-70 characters)")
+    lastName: str = Field(..., min_length=3, max_length=70, description = "Your last name (3-70 characters)")
+    dateOfBirth: date = Field(..., description = "Date of birth (YYYY-MM-DD)")
+    gender: str = Field(..., description = "Gender (male, female, or prefer not to say)")
+    email: EmailStr = Field(..., description = "Valid email address")
+    height: float = Field(..., description = "Height in centimeters (50-300 cm)")
+    weight: float = Field(..., description = "Weight in kilograms (2-500 kg)")
+    heightType: str = Field(..., description = "Height unit must be 'cm'")
+    weightType: str = Field(..., description = "Weight unit must be 'kg'")
+    password: str = Field(..., description = "Password with at least 9 characters, including uppercase, number, and special character")
+    confirm_password: str = Field(..., description = "Confirm password (must match password)")
 
 class UserLogin(BaseModel):
     email: EmailStr

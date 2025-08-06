@@ -6,9 +6,13 @@ from app.schemas.schemas import UserSignUp, UserLogin
 from app.db.mongodb import users_collection 
 from app.schemas.validation import validate_user_data 
 import traceback
+from app.core.security import create_access_token
+import requests
+from fastapi import HTTPException
+import os
 
 router = APIRouter()
-
+baseurl = os.getenv("MY_CLNQ_SERVER_BASE_URL")
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 @router.post("/register")
@@ -19,10 +23,6 @@ def register(user: UserSignUp):
             status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
             detail=validation_errors
         )
-    
-    if user.password != user.confirm_password:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Passwords do not match")
-    
     existing_user = users_collection.find_one({"email": user.email.lower()})
     if existing_user:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email already registered")
@@ -31,27 +31,44 @@ def register(user: UserSignUp):
     user_dict = {
         "firstName": user.firstName,
         "lastName": user.lastName,
-        "country": user.country,
+        "countryCode": user.countryCode,
         "mobileNumber": user.mobileNumber,
         "email": user.email.lower(),
         "dateOfBirth": str(user.dateOfBirth), 
         "gender": user.gender,
         "height": user.height,
         "weight": user.weight,
-        # "id_type": user.id_type,
-        # "id_number": user.id_number,
-        "hashed_password": hashed_password,
+        "heightType": user.heightType,
+        "weightType": user.weightType,
+        "password": hashed_password,
     }
 
     try:
         result = users_collection.insert_one(user_dict)
+        jwt_token = create_access_token(user.password)
+        print(jwt_token)
+        api_data = user_dict.copy()
+        if "_id" in api_data:
+            del api_data["_id"]  # Remove ObjectId before sending
+            
+        default_headers = {
+            "Content-Type": "application/json",
+        }
+        
+        response = requests.post(  # Using .post() directly is cleaner
+            url=f"{baseurl}/api/v1/users/patients",
+            json=api_data,  # Use the cleaned data
+            headers=default_headers,
+            timeout=10
+        )
+        print(response.json())
     except DuplicateKeyError:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email already registered")
     except Exception as e:
         traceback.print_exc()  
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to create user due to server error.")
 
-    return {"message": "User registered successfully", "user_id": str(result.inserted_id)}
+    return {"message": "User registered successfully", "user_id": str(result.inserted_id), "token" : jwt_token}
 
 
 
@@ -63,8 +80,8 @@ def login(user: UserLogin):
     
     if not pwd_context.verify(user.password, db_user["hashed_password"]):
         raise HTTPException(status_code=400, detail="Invalid email or password")
-
-    return {"message": "Login successful"}
+    token = create_access_token(user.password)
+    return {"message": "Login successful", "token" : token}
 
 
 @router.get("/all")

@@ -1,7 +1,6 @@
 import re
 from datetime import date
 import phonenumbers
-import pycountry
 
 def is_valid_name(name: str) -> bool:
     return 2 < len(name) <= 70
@@ -10,18 +9,18 @@ def is_valid_email_format(email: str) -> bool:
     regex = r"^[\w\.-]+@[\w\.-]+\.\w+$"
     return re.match(regex, email) is not None
 
-def is_valid_phone(phone: str, country: str) -> bool:
+def is_valid_phone(phone: str, country_code: str) -> bool:
     try:
-        country_obj = pycountry.countries.get(name=country)
-        if not country_obj:
+        if not country_code.startswith("+"):
             return False
-        parsed_number = phonenumbers.parse(phone, country_obj.alpha_2)
+        full_number = country_code + phone
+        parsed_number = phonenumbers.parse(full_number, None)
         return phonenumbers.is_valid_number(parsed_number)
     except Exception:
         return False
 
 def is_valid_password(pw: str) -> bool:
-    regex = r"^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{6,}$"
+    regex = r"^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{9,}$"
     return re.match(regex, pw) is not None
 
 def passwords_match(password: str, confirm_password: str) -> bool:
@@ -38,8 +37,6 @@ def is_valid_dob(dateOfBirth: date) -> bool:
     today = date.today()
     return dateOfBirth <= today
 
-def is_valid_country(country: str) -> bool:
-    return any(country.lower() == c.name.lower() for c in pycountry.countries)
 
 def validate_user_data(user_data):
     errors = []
@@ -47,10 +44,8 @@ def validate_user_data(user_data):
         errors.append("First name must be 3-70 characters.")
     if not is_valid_name(user_data.lastName):
         errors.append("Last name must be 3-70 characters.")
-    # if not is_valid_country(user_data.country):
-        # errors.append("Invalid country name.")
-    # if not is_valid_phone(user_data.mobileNumber, user_data.country):
-    #     errors.append("Invalid phone number for specified country.")
+    if not is_valid_phone(user_data.phoneNumber, user_data.countryCode):
+        errors.append("Invalid phone number for the specified country code.")
     if not is_valid_email_format(user_data.email):
         errors.append("Invalid email format.")
     if not is_valid_dob(user_data.dateOfBirth):

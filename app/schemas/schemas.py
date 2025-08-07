@@ -3,7 +3,7 @@ from datetime import date
 
 class UserSignUp(BaseModel):
     countryCode: str = Field(..., description = "Country calling code (e.g. +65)")
-    phoneNumber: str = Field(..., description = "Phone number, valid for the specified country code")
+    mobileNumber: str = Field(..., description = "Phone number, valid for the specified country code")
     firstName: str = Field(..., min_length=3, max_length=70, description = "Your first name (3-70 characters)")
     lastName: str = Field(..., min_length=3, max_length=70, description = "Your last name (3-70 characters)")
     dateOfBirth: date = Field(..., description = "Date of birth (YYYY-MM-DD)")
@@ -14,7 +14,7 @@ class UserSignUp(BaseModel):
     heightType: str = Field(..., description = "Height unit must be 'cm'")
     weightType: str = Field(..., description = "Weight unit must be 'kg'")
     password: str = Field(..., description = "Password with at least 9 characters, including uppercase, number, and special character")
-    confirm_password: str = Field(..., description = "Confirm password (must match password)")
+    # confirm_password: str = Field(..., description = "Confirm password (must match password)")
 
 class UserLogin(BaseModel):
     email: EmailStr

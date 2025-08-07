@@ -44,8 +44,8 @@ def validate_user_data(user_data):
         errors.append("First name must be 3-70 characters.")
     if not is_valid_name(user_data.lastName):
         errors.append("Last name must be 3-70 characters.")
-    if not is_valid_phone(user_data.phoneNumber, user_data.countryCode):
-        errors.append("Invalid phone number for the specified country code.")
+    # if not is_valid_phone(user_data.phoneNumber, user_data.countryCode):
+    #     errors.append("Invalid phone number for the specified country code.")
     if not is_valid_email_format(user_data.email):
         errors.append("Invalid email format.")
     if not is_valid_dob(user_data.dateOfBirth):
@@ -56,6 +56,6 @@ def validate_user_data(user_data):
     #     errors.append("Invalid user identification type. Please type either NRIC, PASSPORT, DRIVING LICENSE, AADHAAR, KTP, EMIRATES or CPR.")
     if not is_valid_password(user_data.password):
         errors.append("Password must have 9+ characters, with uppercase, number, and special character.")
-    if not passwords_match(user_data.password, user_data.confirm_password):
-        errors.append("Passwords do not match.")
+    # if not passwords_match(user_data.password, user_data.confirm_password):
+    #     errors.append("Passwords do not match.")
     return errors

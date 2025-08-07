@@ -44,8 +44,8 @@ def validate_user_data(user_data):
         errors.append("First name must be 3-70 characters.")
     if not is_valid_name(user_data.lastName):
         errors.append("Last name must be 3-70 characters.")
-    if not is_valid_phone(user_data.phoneNumber, user_data.countryCode):
-        errors.append("Invalid phone number for the specified country code.")
+    # if not is_valid_phone(user_data.phoneNumber, user_data.countryCode):
+    #     errors.append("Invalid phone number for the specified country code.")
     if not is_valid_email_format(user_data.email):
         errors.append("Invalid email format.")
     if not is_valid_dob(user_data.dateOfBirth):

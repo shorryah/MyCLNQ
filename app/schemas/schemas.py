@@ -3,7 +3,7 @@ from datetime import date
 
 class UserSignUp(BaseModel):
     countryCode: str = Field(..., description = "Country calling code (e.g. +65)")
-    phoneNumber: str = Field(..., description = "Phone number, valid for the specified country code")
+    mobileNumber: str = Field(..., description = "Phone number, valid for the specified country code")
     firstName: str = Field(..., min_length=3, max_length=70, description = "Your first name (3-70 characters)")
     lastName: str = Field(..., min_length=3, max_length=70, description = "Your last name (3-70 characters)")
     dateOfBirth: date = Field(..., description = "Date of birth (YYYY-MM-DD)")

@@ -1,0 +1,172 @@
+Disease,Symptom 1,Symptom 2,Symptom 3,Symptom 4,Symptom 5,Symptom 6,Symptom 7,Symptom 8,Symptom 9,Symptom 10,Symptom 11,Symptom 12,Symptom 13,Symptom 14,Symptom 15,Symptom 16,Symptom 17,specialist
+(vertigo) paroymsal positional vertigo,vomiting,headache,nausea,spinning_movements,loss_of_balance,unsteadiness,,,,,,,,,,,,You should consult an Otolaryngologist (ENT)
+achalasia,swallowing_difficulty,regurgitation,chest_pain,weight_loss,night_cough,,,,,,,,,,,,,You should consult a Gastroenterologist
+acne,skin_rash,pus_filled_pimples,blackheads,scurring,,,,,,,,,,,,,,You should consult a Dermatologist
+acute bronchitis,cough,wheezing,shortness_of_breath,fatigue,low_grade_fever,chest_discomfort,,,,,,,,,,,,You should consult a Pulmonologist
+aids,muscle_wasting,patches_in_throat,high_fever,extra_marital_contacts,,,,,,,,,,,,,,You should consult an Infectious Disease Doctor
+alcoholic hepatitis,vomiting,yellowish_skin,abdominal_pain,swelling_of_stomach,distention_of_abdomen,history_of_alcohol_consumption,fluid_overload,,,,,,,,,,,You should consult a Hepatologist
+allergy,continuous_sneezing,shivering,chills,watering_from_eyes,,,,,,,,,,,,,,You should consult an Allergist
+alopecia areata,patchy_hair_loss,exclamation_mark_hairs,itching_at_base,,,,,,,,,,,,,,,You should consult a Dermatologist
+alzheimer's disease,memory_loss,confusion,difficulty_planning_or_solving_problems,changes_in_mood_or_personality,,,,,,,,,,,,,,You should consult a Neurologist
+anal abscess,pain_in_anal_area,swelling,redness,fever,pus_discharge,discomfort_while_sitting,painful_bowel_movements,,,,,,,,,,,You should consult a Proctologist
+anal fissure,pain_during_bowel_movements,blood_on_stool,itching_in_anus,swelling_near_anus,discomfort_sitting,sharp_pain_while_passing_stool,,,,,,,,,,,,You should consult a Proctologist
+anaphylaxis,rapid_onset_swelling,breathing_difficulty,low_blood_pressure,hives,weak_pulse,loss_of_consciousness,,,,,,,,,,,,You should consult an Allergist
+anemia,fatigue,pale_skin,shortness_of_breath,dizziness,chest_pain,cold_hands_and_feet,headache,irregular_heartbeat,weakness,craving_nonfood_items,brittle_nails,,,,,,,You should consult a Hematologist
+angina,chest_pain_during_exertion,shortness_of_breath,fatigue,nausea,sweating,,,,,,,,,,,,,You should consult a Cardiologist
+ankylosing spondylitis,back_stiffness,worsening_morning,hip_pain,limited_spine_mobility,,,,,,,,,,,,,,You should consult a Rheumatologist
+anorexia nervosa,extreme_weight_loss,fear_of_weight_gain,body_dysmorphia,dizziness,brittle_hair,amenorrhea,dry_skin,low_blood_pressure,,,,,,,,,,You should consult a Psychiatrist / Therapist
+anxiety disorder,excessive_worry,restlessness,rapid_heartbeat,sweating,trembling,fatigue,difficulty_concentrating,irritability,muscle_tension,sleep_problems,,,,,,,,You should consult a Psychiatrist / Therapist
+appendicitis,abdominal_pain,loss_of_appetite,nausea,vomiting,fever,constipation,abdominal_swelling,painful_urination,diarrhoea,,,,,,,,,You should consult a General Surgeon
+arrhythmia,irregular_heartbeat,palpitations,dizziness,fainting,chest_pain,,,,,,,,,,,,,You should consult a Cardiologist
+arthritis,muscle_weakness,stiff_neck,swelling_joints,movement_stiffness,painful_walking,,,,,,,,,,,,,You should consult an Orthopedic / Rheumatologist
+atopic dermatitis,dry_skin,itching,redness,scaling,cracking_skin,thickened_skin,,,,,,,,,,,,You should consult an Allergist/Dermatologist
+autism spectrum disorder,difficulty_in_communication,repetitive_behaviors,social_challenges,sensory_sensitivity,delayed_language,fixation_on_objects,difficulty_with_transitions,,,,,,,,,,,You should consult a Pediatrician / Therapist
+back pain,persistent_pain,stiffness,muscle_spasms,radiating_pain_to_legs,,,,,,,,,,,,,,You should consult an Orthopedic
+benign prostatic hyperplasia,urinary_hesitancy,weak_stream,frequency,nocturia,bladder_incomplete_emptying,,,,,,,,,,,,,You should consult a Urologist
+bipolar disorder,mood_swings,manic_episodes,depressive_episodes,impulsivity,irritability,decreased_need_for_sleep,racing_thoughts,distractibility,,,,,,,,,,You should consult a Psychiatrist / Therapist
+bladder infection,frequent_urination,painful_urination,urgency,cloudy_urine,lower_abdominal_pain,foul_smell,,,,,,,,,,,,You should consult a Urologist
+brain tumor,headaches,vomiting,vision_problems,seizures,neurological_deficits,,,,,,,,,,,,,You should consult a Neurosurgeon
+breast lump,palpable_mass_in_breast,nipple_discharge,pain_or_tenderness,skin_changes_over_breast,,,,,,,,,,,,,,You should consult an Oncologist / Gynecologist
+bronchial asthma,fatigue,cough,high_fever,breathlessness,family_history,mucoid_sputum,,,,,,,,,,,,You should consult an Allergist / Pulmonologist
+bronchiectasis,chronic_cough,sputum_production,breathlessness,recurrent_pneumonia,hemoptysis,,,,,,,,,,,,,You should consult a Pulmonologist
+bulimia nervosa,eating_a_lot_quickly,out_of_control_eating,self-induced_vomiting,swollen_cheeks_or_jaw_muscles,dental_issues,sore_throat,dehydration,,,,,,,,,,,You should consult a Psychiatrist / Therapist
+cancer (general),unexplained_weight_loss,fatigue,pain,lumps_or_masses,skin_changes,,,,,,,,,,,,,You should consult an Oncologist
+carcinoid syndrome,flushing,diarrhea,abdominal_cramps,heart_valve_issues,,,,,,,,,,,,,,You should consult an Oncologist
+carpal tunnel syndrome,numbness_in_hand,tingling_in_fingers,hand_weakness,pain_at_night,,,,,,,,,,,,,,You should consult an Orthopedic
+cataracts,cloudy_vision,difficulty_seeing_at_night,sensitivity_to_light,faded_colors,double_vision,frequent_prescription_changes,,,,,,,,,,,,You should consult an Ophthalmologist
+cervical cancer,irregular_bleeding,pain_during_sex,pelvic_pain,foul_smell_discharge,,,,,,,,,,,,,,You should consult an Oncologist / Gynecologist
+cervical spondylosis,back_pain,weakness_in_limbs,neck_pain,dizziness,loss_of_balance,,,,,,,,,,,,,You should consult an Orthopedic
+chest pain,pressure_or_tightness_in_chest,pain_radiating_to_arm_or_jaw,shortness_of_breath,nausea,sweating,,,,,,,,,,,,,You should consult a Cardiologist
+chicken pox,itching,skin_rash,fatigue,lethargy,high_fever,headache,loss_of_appetite,mild_fever,swelled_lymph_nodes,malaise,red_spots_over_body,,,,,,,You should consult a General Practitioner
+chickenpox,fever,fatigue,skin_rash,blisters,loss_of_appetite,headache,itching,red_spots,,,,,,,,,,You should consult a Pediatrician
+cholelithiasis (gallstones),abdominal_pain,nausea,vomiting,jaundice,fever,indigestion,bloating,shoulder_pain,back_pain,,,,,,,,,You should consult a Gastroenterologist
+chronic cholestasis,itching,vomiting,yellowish_skin,nausea,loss_of_appetite,abdominal_pain,yellowing_of_eyes,,,,,,,,,,,You should consult a Hepatologist
+chronic kidney disease,fatigue,swelling_in_legs,persistent_itching,urine_changes,shortness_of_breath,,,,,,,,,,,,,You should consult a Nephrologist
+cirrhosis,fatigue,yellowing_of_skin_and_eyes,abdominal_swelling,confusion,easy_bruising,,,,,,,,,,,,,You should consult a Hepatologist
+colic,excessive_crying,abdominal_pain,restlessness,clenched_fists,arched_back,passing_gas,irritability,distended_abdomen,,,,,,,,,,You should consult a Pediatrician
+colon cancer,change_in_bowel_habits,blood_in_stool,weight_loss,fatigue,abdominal_pain,,,,,,,,,,,,,You should consult a Gastroenterologist / Oncologist
+common cold,continuous_sneezing,chills,fatigue,cough,high_fever,headache,swelled_lymph_nodes,malaise,phlegm,throat_irritation,redness_of_eyes,sinus_pressure,runny_nose,congestion,chest_pain,loss_of_smell,muscle_pain,You should consult a General Practitioner
+congestive heart failure,shortness_of_breath,swelling_in_legs,fatigue,rapid_heartbeat,persistent_cough,weight_gain,,,,,,,,,,,,You should consult a Cardiologist
+covid-19,fever,cough,fatigue,loss_of_taste_or_smell,difficulty_breathing,headache,sore_throat,diarrhoea,body_aches,runny_nose,,,,,,,,You should consult an Infectious Disease Doctor / General Practitioner
+crohn's disease,abdominal_pain,diarrhea,weight_loss,fatigue,bloody_stools,fever,,,,,,,,,,,,You should consult a Gastroenterologist
+cystic fibrosis,frequent_lung_infections,cough_with_mucus,shortness_of_breath,poor_growth,greasy_stools,sinus_infections,salty_skin,chronic_fatigue,,,,,,,,,,You should consult a Pulmonologist / Geneticist
+dengue,skin_rash,chills,joint_pain,vomiting,fatigue,high_fever,headache,nausea,loss_of_appetite,pain_behind_the_eyes,back_pain,malaise,muscle_pain,red_spots_over_body,,,,You should consult an Infectious Disease Doctor
+dental cavities,tooth_pain,sensitivity_to_sweets_hots,cavities_visible_on_tooth,tooth_discoloration,,,,,,,,,,,,,,You should consult a Dentist
+depression,persistent_sadness,loss_of_interest,fatigue,changes_in_appetite,sleep_disturbances,feelings_of_worthlessness,difficulty_concentrating,thoughts_of_death_or_suicide,,,,,,,,,,You should consult a Psychiatrist / Therapist
+diabetes,fatigue,weight_loss,restlessness,lethargy,irregular_sugar_level,blurred_and_distorted_vision,obesity,excessive_hunger,increased_appetite,polyuria,,,,,,,,You should consult an Endocrinologist
+dimorphic hemmorhoids(piles),constipation,pain_during_bowel_movements,pain_in_anal_region,bloody_stool,irritation_in_anus,,,,,,,,,,,,,You should consult a Proctologist
+drug reaction,itching,skin_rash,stomach_pain,burning_micturition,spotting_ urination,,,,,,,,,,,,,You should consult an Allergist
+ear infection,ear_pain,hearing_loss,discharge_from_ear,fever,ear_fullness,,,,,,,,,,,,,You should consult an ENT Specialist
+eczema,itching,redness,dry_skin,skin_thickening,blisters,skin_flaking,cracked_skin,inflammation,,,,,,,,,,You should consult a Dermatologist
+edometriosis,pelvic_pain,painful_periods,infertility,pain_during_sex,fatigue,heavy_bleeding,urinary_discomfort,lower_back_pain,,,,,,,,,,You should consult a Gynecologist
+emphysema,shortness_of_breath,chronic_cough,bronchospasm,weight_loss,chest_tightness,,,,,,,,,,,,,You should consult a Pulmonologist
+endometrial cancer,abnormal_uterine_bleeding,pelvic_pain,weight_loss,fatigue,,,,,,,,,,,,,,You should consult an Oncologist / Gynecologist
+epilepsy,recurrent_seizures,loss_of_awareness,muscle_rigidity,convulsions,fainting,,,,,,,,,,,,,You should consult a Neurologist
+esophageal varices,vomiting_blood,black_tarry_stools,abdominal_pain,weakness,,,,,,,,,,,,,,You should consult a Gastroenterologist
+eye pain,eye_redness,blurred_vision,tearing,sensitivity_to_light,,,,,,,,,,,,,,You should consult an Ophthalmologist
+fatigue (chronic),persistent_tiredness,poor_concentration,muscle_weakness,sleep_disturbances,,,,,,,,,,,,,,You should consult a General Practitioner / Internist
+fracture,pain,swelling,bruising,deformity,inability_to_move_affected_area,,,,,,,,,,,,,You should consult an Orthopedic
+fungal infection,itching,skin_rash,nodal_skin_eruptions,dischromic _patches,,,,,,,,,,,,,,You should consult a Dermatologist
+gallbladder infection,fever,upper_abdominal_pain,nausea,vomiting,jaundice,,,,,,,,,,,,,You should consult a Gastroenterologist
+gastritis,upper_abdominal_pain,nausea,bloating,vomiting,indigestion,loss_of_appetite,black_stools,,,,,,,,,,,You should consult a Gastroenterologist
+gastroenteritis,vomiting,sunken_eyes,dehydration,diarrhoea,,,,,,,,,,,,,,You should consult a Gastroenterologist
+generalized anxiety disorder,chronic_worry,restlessness,fatigue,irritability,muscle_tension,sleep_disturbance,,,,,,,,,,,,You should consult a Psychiatrist / Therapist
+gerd,stomach_pain,acidity,ulcers_on_tongue,vomiting,cough,chest_pain,,,,,,,,,,,,You should consult a Gastroenterologist
+giant cell arteritis,headache,scalp_tenderness,vision_changes,jaw_claudication,fever,weight_loss,,,,,,,,,,,,You should consult a Rheumatologist
+glaucoma,eye_pain,blurred_vision,headache,nausea,halos_around_lights,vision_loss,eye_redness,,,,,,,,,,,You should consult an Ophthalmologist
+gum disease,bleeding_gums,red_swollen_gums,bad_breath,receding_gums,tooth_mobility,,,,,,,,,,,,,You should consult a Dentist
+hand foot and mouth disease,fever,sore_throat,blisters_on_hands,blisters_on_feet,blisters_in_mouth,loss_of_appetite,fatigue,irritability,,,,,,,,,,You should consult a Pediatrician
+hearing loss,difficulty_hearing,ringing_in_ears,difficulty_following_conversations,withdrawal_from_social_situations,,,,,,,,,,,,,,You should consult an ENT Specialist
+heart attack,vomiting,breathlessness,sweating,chest_pain,,,,,,,,,,,,,,You should consult a Cardiologist
+hemorrhoids,itching_in_anus,pain_while_sitting,bleeding_during_bowel_movements,swelling_near_anus,lump_around_anus,discomfort,rectal_pain,,,,,,,,,,,You should consult a Proctologist
+hepatitis a,joint_pain,vomiting,yellowish_skin,dark_urine,nausea,loss_of_appetite,abdominal_pain,diarrhoea,mild_fever,yellowing_of_eyes,muscle_pain,,,,,,,You should consult a Hepatologist
+hepatitis b,itching,fatigue,lethargy,yellowish_skin,dark_urine,loss_of_appetite,abdominal_pain,yellow_urine,yellowing_of_eyes,malaise,receiving_blood_transfusion,receiving_unsterile_injections,,,,,,You should consult a Hepatologist
+hepatitis c,fatigue,yellowish_skin,nausea,loss_of_appetite,yellowing_of_eyes,family_history,,,,,,,,,,,,You should consult a Hepatologist
+hepatitis d,joint_pain,vomiting,fatigue,yellowish_skin,dark_urine,nausea,loss_of_appetite,abdominal_pain,yellowing_of_eyes,,,,,,,,,You should consult a Hepatologist
+hepatitis e,joint_pain,vomiting,fatigue,high_fever,yellowish_skin,dark_urine,nausea,loss_of_appetite,abdominal_pain,yellowing_of_eyes,acute_liver_failure,coma,stomach_bleeding,,,,,You should consult a Hepatologist
+hiatal hernia,heartburn,chest_pain,belching,regurgitation,nighttime_cough,,,,,,,,,,,,,You should consult a Gastroenterologist
+hives (urticaria),raised_red_itchy_welts,swelling_of_skin,itching,burning_sensation,,,,,,,,,,,,,,You should consult an Allergist
+huntington's disease,involuntary_movements,cognitive_decline,mood_changes,difficulty_speaking_and_swallowing,,,,,,,,,,,,,,You should consult a Neurologist
+hypertension,headache,chest_pain,dizziness,loss_of_balance,lack_of_concentration,,,,,,,,,,,,,You should consult a Cardiologist
+hyperthyroidism,fatigue,mood_swings,weight_loss,restlessness,sweating,diarrhoea,fast_heart_rate,excessive_hunger,muscle_weakness,irritability,abnormal_menstruation,,,,,,,You should consult an Endocrinologist
+hypoglycemia,vomiting,fatigue,anxiety,sweating,headache,nausea,blurred_and_distorted_vision,excessive_hunger,drying_and_tingling_lips,slurred_speech,irritability,palpitations,,,,,,You should consult an Endocrinologist
+hypothyroidism,fatigue,weight_gain,cold_hands_and_feets,mood_swings,lethargy,dizziness,puffy_face_and_eyes,enlarged_thyroid,brittle_nails,swollen_extremeties,depression,irritability,abnormal_menstruation,,,,,You should consult an Endocrinologist
+immune disorders,fatigue,recurrent_infections,inflammation,autoimmune_symptoms,,,,,,,,,,,,,,You should consult an Immunologist
+impetigo,skin_rash,high_fever,blister,red_sore_around_nose,yellow_crust_ooze,,,,,,,,,,,,,You should consult a Dermatologist
+infertility,difficulty_conceiving,irregular_periods,painful_periods,ovulation_problems,,,,,,,,,,,,,,You should consult a Gynecologist / Reproductive Endocrinologist
+inflammatory bowel disease,abdominal_pain,diarrhea,fatigue,weight_loss,rectal_bleeding,nutritional_deficiency,,,,,,,,,,,,You should consult a Gastroenterologist
+irritable bowel syndrome (ibs),abdominal_cramps,bloating,gas,diarrhea,constipation,mucus_in_stool,nausea,urgency_to_defecate,,,,,,,,,,You should consult a Gastroenterologist
+jaundice,itching,vomiting,fatigue,weight_loss,high_fever,yellowish_skin,dark_urine,abdominal_pain,,,,,,,,,,You should consult a Gastroenterologist / Hepatologist
+kidney failure,reduced_urine_output,swelling,fatigue,nausea,confusion,,,,,,,,,,,,,You should consult a Nephrologist
+kidney infection,fever,back_pain,painful_urination,frequent_urination,blood_in_urine,nausea,,,,,,,,,,,,You should consult a Urologist
+kidney stones,severe_pain_in_side,nausea,vomiting,blood_in_urine,painful_urination,frequent_urination,fever,urine_odor,,,,,,,,,,You should consult a Urologist
+labyrinthitis,vertigo,hearing_loss,ear_ringing,nausea,vomiting,imbalance,,,,,,,,,,,,You should consult an ENT Specialist
+leukemia,fever,frequent_infections,bruising,bleeding,anemia,weight_loss,,,,,,,,,,,,You should consult a Hematologist / Oncologist
+lung cancer,persistent_cough,chest_pain,weight_loss,shortness_of_breath,blood_in_sputum,,,,,,,,,,,,,You should consult a Pulmonologist / Oncologist
+lupus,fatigue,joint_pain,skin_rash,fever,hair_loss,sensitivity_to_sun,chest_pain,swelling,headaches,,,,,,,,,You should consult a Rheumatologist
+lymphoma,swollen_lymph_nodes,fever,night_sweats,weight_loss,fatigue,,,,,,,,,,,,,You should consult a Hematologist / Oncologist
+malaria,chills,vomiting,high_fever,sweating,headache,nausea,diarrhoea,muscle_pain,,,,,,,,,,You should consult an Infectious Disease Doctor
+measles,high_fever,cough,runny_nose,conjunctivitis,skin_rash,loss_of_appetite,body_ache,red_eyes,white_spots_in_mouth,,,,,,,,,You should consult an Infectious Disease Doctor
+meningitis,headache,stiff_neck,fever,nausea,confusion,light_sensitivity,seizures,sleepiness,skin_rash,,,,,,,,,You should consult a Neurologist / Infectious Disease Doctor
+menstrual irregularities,irregular_periods,heavy_or_light_bleeding,painful_periods,spotting_between_periods,,,,,,,,,,,,,,You should consult a Gynecologist
+migraine,acidity,indigestion,headache,blurred_and_distorted_vision,excessive_hunger,stiff_neck,depression,irritability,visual_disturbances,,,,,,,,,You should consult a Neurologist
+mononucleosis,extreme_fatigue,sore_throat,fever,swollen_glands,headache,splenic_swelling,body_aches,skin_rash,,,,,,,,,,You should consult a General Practitioner
+multiple myeloma,bone_pain,anemia,frequent_infections,renal_failure,fatigue,,,,,,,,,,,,,You should consult a Hematologist / Oncologist
+multiple sclerosis,fatigue,vision_problems,numbness,tingling,muscle_weakness,balance_problems,dizziness,cognitive_issues,urinary_urgency,,,,,,,,,You should consult a Neurologist
+mumps,swollen_salivary_glands,fever,headache,muscle_aches,loss_of_appetite,tiredness,pain_while_chewing,earache,,,,,,,,,,You should consult a Pediatrician
+obsessive-compulsive disorder,unwanted_repetitive_thoughts,compulsive_behaviors,anxiety,distress,inability_to_control_thoughts,time_consuming_rituals,,,,,,,,,,,,You should consult a Psychiatrist / Therapist
+onychomycosis,thickened_nails,discolored_nails,brittle_nails,nail_separation,,,,,,,,,,,,,,You should consult a Dermatologist
+osteoarthristis,joint_pain,neck_pain,knee_pain,hip_joint_pain,swelling_joints,painful_walking,,,,,,,,,,,, You should consult a Rheumatologist
+osteoporosis,bone_pain,fractures_from_minor_trauma,loss_of_height,stooped_posture,,,,,,,,,,,,,,You should consult an Endocrinologist / Rheumatologist
+otitis media,ear_pain,fever,hearing_loss,ear_fullness,irritability,fluid_in_ear,,,,,,,,,,,,You should consult an ENT Specialist
+ovarian cysts,lower_abdominal_pain,bloating,irregular_periods,pelvic_pressure,lower_back_pain,,,,,,,,,,,,,You should consult a Gynecologist
+pancreatitis,upper_abdominal_pain,nausea,vomiting,fever,rapid_pulse,back_pain,,,,,,,,,,,,You should consult a Gastroenterologist
+panic disorder,sudden_panic_attacks,chest_pain,shortness_of_breath,dizziness,palpitations,fear_of_dying,sweating,trembling,nausea,,,,,,,,,You should consult a Psychiatrist / Therapist
+paralysis (brain hemorrhage),vomiting,headache,weakness_of_one_body_side,altered_sensorium,,,,,,,,,,,,,,You should consult a Neurosurgeon
+pediatric asthma,cough,wheezing,shortness_of_breath,chest_tightness,frequent_colds,nasal_congestion,fatigue,difficulty_sleeping,,,,,,,,,,You should consult a Pediatrician
+pediatric diarrhea,frequent_loose_stools,abdominal_pain,fever,loss_of_appetite,dehydration,vomiting,cramps,crying_without_tears,,,,,,,,,,You should consult a Pediatrician
+peptic ulcer bleeding,abdominal_pain,black_tarry_stools,vomiting_blood,weakness,anemia,,,,,,,,,,,,,You should consult a Gastroenterologist
+peptic ulcer diseae,vomiting,indigestion,loss_of_appetite,abdominal_pain,passage_of_gases,internal_itching,,,,,,,,,,,,
+peptic ulcer disease,vomiting,indigestion,loss_of_appetite,abdominal_pain,passage_of_gases,internal_itching,,,,,,,,,,,,You should consult a Gastroenterologist
+pilonidal cyst,pain_near_tailbone,swelling,redness,pus_or_blood_discharge,fever,pain_while_sitting,itching,,,,,,,,,,,You should consult a Proctologist
+piriformis syndrome,hip_pain,buttock_pain,sciatica,numbness,tingling,,,,,,,,,,,,,You should consult an Orthopedic
+plantar fasciitis,heel_pain,first_steps_morning,stiffness,swelling,walking_difficulty,,,,,,,,,,,,,You should consult an Orthopedic
+plantar wart,pain_on_weight_bearing,rough_skin_lesion,blemish_with_black_dots,,,,,,,,,,,,,,,You should consult a Dermatologist
+pneumonia,chills,fatigue,cough,high_fever,breathlessness,sweating,malaise,phlegm,chest_pain,fast_heart_rate,rusty_sputum,,,,,,,You should consult a Pulmonologist
+polycystic ovary syndrome (pcos),irregular_periods,excess_hair_growth,acne,weight_gain,infertility,oily_skin,depression,thinning_hair,,,,,,,,,,You should consult a Gynecologist / Reproductive Endocrinologist
+post-traumatic stress disorder,flashbacks,nightmares,severe_anxiety,avoidance_of_triggers,hypervigilance,irritability,emotional_numbness,difficulty_sleeping,,,,,,,,,,You should consult a Psychiatrist / Therapist
+pregnancy care,missed_period,nausea,fatigue,breast_tenderness,frequent_urination,,,,,,,,,,,,,You should consult an Obstetrician-Gynecologist
+proctitis,rectal_pain,bleeding_from_rectum,frequent_urge_to_defecate,painful_bowel_movements,mucus_discharge,diarrhea,,,,,,,,,,,,You should consult a Proctologist
+prostate cancer,difficulty_urinating,blood_in_urine,pelvic_pain,fatigue,weight_loss,,,,,,,,,,,,,You should consult a Urologist / Oncologist
+psoriasis,skin_rash,joint_pain,skin_peeling,silver_like_dusting,small_dents_in_nails,inflammatory_nails,,,,,,,,,,,,You should consult a Dermatologist
+psoriatic arthritis,joint_pain,swollen_joints,skin_plaques,fatigue,,,,,,,,,,,,,,
+rectal prolapse,feeling_of_a_bulge,discomfort_in_rectum,rectal_bleeding,mucus_discharge,fecal_incontinence,rectal_pain,itching,,,,,,,,,,,You should consult a Proctologist
+restless leg syndrome,urge_to_move_legs,tingling_sensation,worsening_at_rest,sleep_disruption,,,,,,,,,,,,,,You should consult a Neurologist
+retinal diseases,vision_loss,blurred_vision,distorted_vision,blind_spots,floating_spots,,,,,,,,,,,,,You should consult an Ophthalmologist
+rosacea,facial_redness,visible_blood_vessels,pimple_like_bumps,skin_thickening,sensitivity_to_skin_care_products,,,,,,,,,,,,,You should consult a Dermatologist
+schizophrenia,hallucinations,delusions,disorganized_thinking,lack_of_emotion,social_withdrawal,difficulty_concentrating,,,,,,,,,,,,You should consult a Psychiatrist / Therapist
+scoliosis,spinal_curvature,back_pain,uneven_shoulders,hip_asymmetry,,,,,,,,,,,,,,You should consult an Orthopedic
+seizures,convulsions,loss_of_consciousness,confusion,staring_spells,uncontrolled_movements,,,,,,,,,,,,,You should consult a Neurologist
+sinus infection,facial_pain,nasal_congestion,headache,postnasal_drip,fever,cough,,,,,,,,,,,,You should consult an ENT Specialist
+sinusitis,facial_pain_or_pressure,nasal_congestion,headache,postnasal_drip,fever,cough,,,,,,,,,,,,You should consult an ENT Specialist
+skin cancer,changing_moles,new_growths,non_healing_ulcers,itching_or_bleeding_of_skin_lesions,,,,,,,,,,,,,,You should consult a Dermatologist / Oncologist
+sleep apnea,snoring,daytime_sleepiness,paused_breathing,headaches,morning_sore_throat,,,,,,,,,,,,,You should consult a Pulmonologist / ENT Specialist
+social anxiety disorder,intense_fear_of_social_situations,avoidance,blushing,rapid_heartbeat,sweating,trembling,nausea,,,,,,,,,,,You should consult a Psychiatrist / Therapist
+stroke,sudden_numbness,confusion,trouble_speaking,vision_problems,dizziness,loss_of_balance,severe_headache,paralysis_on_one_side,,,,,,,,,,You should consult a Neurologist / Emergency Physician
+swollen lymph nodes,enlarged_painless_nodes,fever,night_sweats,weight_loss,fatigue,,,,,,,,,,,,,You should consult an Infectious Disease Doctor / Oncologist
+temporal arteritis,headache,vision_problems,jaw_pain,fever,weight_loss,,,,,,,,,,,,,You should consult a Rheumatologist
+tendonitis,pain_with_movement,swelling,stiffness,weakness,inflammation,,,,,,,,,,,,,You should consult an Orthopedic
+thyroid nodules,palpable_neck_lump,hoarseness,difficulty_swallowing,neck_swelling,thyroid_dysfunction_symptoms,,,,,,,,,,,,,You should consult an Endocrinologist
+tonsillitis,sore_throat,fever,swollen_tonsils,difficulty_swallowing,ear_pain,white_spots_on_tonsils,,,,,,,,,,,,You should consult an ENT Specialist
+toothache,persistent_tooth_pain,sensitivity_to_hot_cold,swelling_in_gums,bad_breath,,,,,,,,,,,,,,You should consult a Dentist
+tuberculosis,chills,vomiting,fatigue,weight_loss,cough,high_fever,breathlessness,sweating,loss_of_appetite,mild_fever,yellowing_of_eyes,swelled_lymph_nodes,malaise,phlegm,chest_pain,blood_in_sputum,,You should consult an Infectious Disease Doctor
+typhoid,chills,vomiting,fatigue,high_fever,headache,nausea,constipation,abdominal_pain,diarrhoea,toxic_look_(typhos),belly_pain,,,,,,,You should consult an Infectious Disease Doctor
+ulcerative colitis,abdominal_cramps,diarrhea_bloody_stools,fatigue,weight_loss,urgency_to_defecate,,,,,,,,,,,,,You should consult a Gastroenterologist
+urinary incontinence,leakage_of_urine,urgent_need_to_urinate,frequency,weak_stream,,,,,,,,,,,,,,You should consult a Urologist
+urinary tract infection,burning_micturition,bladder_discomfort,foul_smell_of urine,continuous_feel_of_urine,,,,,,,,,,,,,,You should consult a Urologist
+uterine fibroids,heavy_bleeding,pelvic_pressure,frequent_urination,lower_back_pain,constipation,,,,,,,,,,,,,You should consult a Gynecologist
+varicose veins,fatigue,cramps,bruising,obesity,swollen_legs,swollen_blood_vessels,prominent_veins_on_calf,,,,,,,,,,,You should consult a Vascular Surgeon
+vitiligo,loss_of_skin_color,white_patches_symmetrical,loss_of_pigmentation_on_hair_and_mucosa,,,,,,,,,,,,,,,You should consult a Dermatologist
+weight gain,increase_in_body_size,fatigue,swelling,puffiness,shortness_of_breath,joint_pain,snoring,mood_swings,,,,,,,,,,You should consult a Nutritionist / Endocrinologist
+weight loss,decrease_in_body_size,dizziness,fainting,loss_of_strength,hair_thinning,digestive_issues,decreased_appetite,brittle_nails,mood_swings,,,,,,,,, You should consult a Nutritionist / Endocrinologist
+whooping cough,severe_coughing_fits,vomiting_after_coughing,exhaustion,bluish_skin,barking_cough,difficulty_breathing,fever,,,,,,,,,,,You should consult a Pediatrician

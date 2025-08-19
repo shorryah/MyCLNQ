@@ -17,8 +17,13 @@ class UserSignUp(BaseModel):
     # confirm_password: str = Field(..., description = "Confirm password (must match password)")
 
 class UserLogin(BaseModel):
+    countryCode: str = Field(..., description = "Country calling code (e.g. +65)")
+    phoneNumber: str = Field(..., description = "Phone number, valid for the specified country code")
     email: EmailStr
     password: str
+
+class UserLogout(BaseModel):
+    email: EmailStr
 
 class Token(BaseModel):
     access_token: str

@@ -9,5 +9,6 @@ uri = os.getenv("MONGODB_URL")
 client = MongoClient(uri, server_api=ServerApi('1'))
 
 db = client["myclnq_chatbot_db"]
-users_collection = db["user_data"]
 
+users_collection = db["user_data"]
+chat_collection = db["chat_logs"]
